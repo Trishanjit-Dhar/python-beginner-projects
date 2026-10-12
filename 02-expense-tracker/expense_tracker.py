@@ -11,7 +11,7 @@ while True :
     print("\n----MAIN MENU----")
     print("1. ADD EXPENSE")
     print("2. VIEW ALL EXPENSES")
-    print("3. CHECK BUDGE AND SUMMARY")
+    print("3. CHECK BUDGET AND SUMMARY")
     print("4. EXIT")
 
     # Read the menu option as text so it can be compared with "1", "2", etc.
@@ -31,9 +31,9 @@ while True :
 
             Expenses.append(expense_tuple)
 
-            print("Expense added succesfully")
+            print("Expense added successfully")
         except ValueError:
-            print("Please an appropriate value in the amount section")
+            print("Please enter an appropriate value in the amount section")
 
 
     elif choice == "2":
@@ -69,7 +69,7 @@ while True :
             print("Please spend your money wisely you have already exceeded 80 percent of your monthly limit")
 
         else:
-            print("Congratulations to your selfcontrol you didn't over spend this month and your expenses ar in your control")
+            print("Congratulations to your selfcontrol you didn't over spend this month and your expenses are in your control")
 
 
     elif choice == "4":
